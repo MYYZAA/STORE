@@ -35,3 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
   createBubbles();
 });
 
+function changeBackgroundColor() {
+  var colors = ['#333', '#130f55', '#5733ff', '#', '#0a0825']; // Array of colors
+  var randomColor = colors[Math.floor(Math.random() * colors.length)]; // Pick a random color from the array
+  document.body.style.backgroundColor = randomColor; // Change the background color
+}
+
+setInterval(changeBackgroundColor, 2000); // Change color every 2 seconds (2000 milliseconds)

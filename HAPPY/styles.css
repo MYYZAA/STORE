@@ -6,13 +6,12 @@ body {
     min-height: 100vh;
     padding-top: 50px; /* Adjust top padding to accommodate fixed header */
     padding-bottom: 50px; /* Adjust bottom padding to accommodate fixed footer */
-background-size: cover; /* This will make the background image cover the entire container */
-background-repeat: no-repeat;
+    background-image: url('https://www.freepnglogos.com/uploads/cloud-png/clouds-form-photo-9.png');
+    background-size: 2000px; /* This will make the background image cover the entire container */
+background-repeat: repeat;
 background-position: center center;
-background-color: #333;
-overflow-x: hidden; /* Prevent horizontal scrolling */
-
-
+background-color: #3e3a83;
+overflow-x: hidden; 
 }
 
 .container {
@@ -126,7 +125,6 @@ color: white;
     display: flex;
     
     position: absolute;
-    top: 100%;
     right: 20px;
     background-color: #333;
     border-radius: 0px 0px 5px 5px;
