@@ -62,7 +62,7 @@ p {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     z-index: 1000;
     opacity: 1;
@@ -97,7 +97,6 @@ text-align: center;
     padding: 10px 20px;
     border-radius: 5px;
     position: absolute;
-    top: 80%;
     right: 30px;
     transform: translateY(-50%);
     cursor: pointer;
@@ -157,7 +156,6 @@ color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 200px; /* Add top margin to move the content down */
     margin-bottom: 20px; /* Add bottom margin to move the content up */
      }
 
@@ -229,4 +227,20 @@ background-position: center center;
   .leaf{
   }
 
-  
+  .popup-container {
+    position:relative;
+    /* Center vertically */
+    transform: translateY(-50%);
+    background-color: rgba(50, 205, 50, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image:url('https://pngimg.com/uploads/drone/drone_PNG94.png'); 
+  width: 90px;
+  height: 50px;
+   background-size: 300px; /* This will make the background image cover the entire container */
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 150px;
+   bottom: 40px;
+  }
